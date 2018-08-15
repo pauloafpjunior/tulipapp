@@ -1,17 +1,32 @@
 <ion-header>
-  <ion-navbar>
+
+  <ion-navbar color="dark" #mycontent>
     <ion-title>
-      Contact
+      <img style="width: 24px; height: 24px; margin: auto;" src="assets/imgs/logo.png" /> Tulip
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content>
-  <ion-list>
-    <ion-list-header>Follow us on Twitter</ion-list-header>
-    <ion-item>
-      <ion-icon name="ionic" item-start></ion-icon>
-      @ionicframework
-    </ion-item>
-  </ion-list>
 </ion-content>
+
+<ion-menu [content]="mycontent">
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>Section</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content>
+    <ion-list>
+      <ion-item>
+        <img style="width: 16px; height: 16px; margin: auto;" src="assets/imgs/icon.png" /> Herbology
+      </ion-item>
+      <ion-item>
+        <img style="width: 16px; height: 16px; margin: auto;" src="assets/imgs/icon.png" /> Herbology
+      </ion-item>
+      <ion-item>
+        <img style="width: 16px; height: 16px; margin: auto;" src="assets/imgs/icon.png" /> Herbology
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-menu>
