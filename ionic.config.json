@@ -3,6 +3,13 @@
   "integrations": {
     "cordova": {}
   },
+  "proxies": [
+    {
+      "path": "/api",
+      "proxyUrl": "https://tulipweb.herokuapp.com/api"
+    }
+  ],
   "type": "ionic-angular",
   "pro_id": "f9715194"
 }
+
