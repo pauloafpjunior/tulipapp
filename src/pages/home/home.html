@@ -8,104 +8,15 @@
 </ion-header>
 
 <ion-content>
-  <ion-card>
-    <ion-card-header text-center class="post-date">
-      <h2><strong>Terceira Igreja Presbiteriana de Lavras</strong></h2>
+  <ion-card *ngFor="let org of organizations">
+    <ion-card-header text text-center class="post-date">
+      <h2>
+        <strong>{{org.name}}</strong>
+      </h2>
       <i>Last updated at: 11h ago</i>
     </ion-card-header>
     <ion-card-content>
       <img style="height: 15em; width: auto; margin: auto;" src="assets/imgs/ipb.png" />
     </ion-card-content>
-    <ion-row>
-      <ion-col center text-center>
-        <ion-item>
-          <ion-toggle checked="false"></ion-toggle>
-          <ion-label>
-            Following
-          </ion-label>
-          <ion-icon name='eye' item-start></ion-icon>
-        </ion-item>
-      </ion-col>
-    </ion-row>
-  </ion-card>
-  <ion-card>
-    <ion-card-header text-center class="post-date">
-      <h2><strong>Terceira Igreja Presbiteriana de Lavras</strong></h2>
-      <i>Last updated at: 11h ago</i>
-    </ion-card-header>
-    <ion-card-content>
-      <img style="height: 15em; width: auto; margin: auto;" src="assets/imgs/ipb.png" />
-    </ion-card-content>
-    <ion-row>
-      <ion-col center text-center>
-        <ion-item>
-          <ion-toggle checked="false"></ion-toggle>
-          <ion-label>
-            Following
-          </ion-label>
-          <ion-icon name='eye' item-start></ion-icon>
-        </ion-item>
-      </ion-col>
-    </ion-row>
-  </ion-card>
-  <ion-card>
-    <ion-card-header text-center class="post-date">
-      <h2><strong>Terceira Igreja Presbiteriana de Lavras</strong></h2>
-      <i>Last updated at: 11h ago</i>
-    </ion-card-header>
-    <ion-card-content>
-      <img style="height: 15em; width: auto; margin: auto;" src="assets/imgs/ipb.png" />
-    </ion-card-content>
-    <ion-row>
-      <ion-col center text-center>
-        <ion-item>
-          <ion-toggle checked="false"></ion-toggle>
-          <ion-label>
-            Following
-          </ion-label>
-          <ion-icon name='eye' item-start></ion-icon>
-        </ion-item>
-      </ion-col>
-    </ion-row>
-  </ion-card>
-  <ion-card>
-    <ion-card-header text-center class="post-date">
-      <h2><strong>Terceira Igreja Presbiteriana de Lavras</strong></h2>
-      <i>Last updated at: 11h ago</i>
-    </ion-card-header>
-    <ion-card-content>
-      <img style="height: 15em; width: auto; margin: auto;" src="assets/imgs/ipb.png" />
-    </ion-card-content>
-    <ion-row>
-      <ion-col center text-center>
-        <ion-item>
-          <ion-toggle checked="false"></ion-toggle>
-          <ion-label>
-            Following
-          </ion-label>
-          <ion-icon name='eye' item-start></ion-icon>
-        </ion-item>
-      </ion-col>
-    </ion-row>
-  </ion-card>
-  <ion-card>
-    <ion-card-header text-center class="post-date">
-      <h2><strong>Terceira Igreja Presbiteriana de Lavras</strong></h2>
-      <i>Last updated at: 11h ago</i>
-    </ion-card-header>
-    <ion-card-content>
-      <img style="height: 15em; width: auto; margin: auto;" src="assets/imgs/ipb.png" />
-    </ion-card-content>
-    <ion-row>
-      <ion-col center text-center>
-        <ion-item>
-          <ion-toggle checked="false"></ion-toggle>
-          <ion-label>
-            Following
-          </ion-label>
-          <ion-icon name='eye' item-start></ion-icon>
-        </ion-item>
-      </ion-col>
-    </ion-row>
   </ion-card>
 </ion-content>
